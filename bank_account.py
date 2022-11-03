@@ -1,7 +1,13 @@
 class BankAccount:
     def __init__(self, owner, balance):
+        # self.owner = owner
+        # self.balance = balance
+
         self._owner = owner
         self._balance = balance
+
+        # self.__owner = owner
+        # self.__balance = balance
 
     def get_owner(self):
         return self._owner
